@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ItemGenerator : MonoBehaviour
 {
+    int aa;
     [SerializeField] private GameObject[] itemArr;
 
     private void Start()

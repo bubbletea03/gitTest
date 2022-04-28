@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MultiShotItem : Item
 {
+    int hello;
+    int a;
+    int b;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
